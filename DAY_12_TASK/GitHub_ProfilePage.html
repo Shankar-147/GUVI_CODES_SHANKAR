@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GitHub_Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      body {
+        height: 100vh;
+        position: relative;
+        background-color: #cad2c5;
+      }
+      .heading {
+        text-align: center;
+        padding: 20px;
+        color: white;
+        background-color: #2f3d46;
+      }
+      .icon {
+        > img {
+          position: absolute;
+          top: 14px;
+          left: 30px;
+          width: 33px;
+        }
+      }
+      .whole {
+        display: flex;
+        justify-content: space-around;
+      }
+      .lp {
+        background-color: #353535;
+        color: white;
+        width: 220px;
+        height: 350px;
+        border-radius: 15px;
+        box-shadow: 8px 8px 5px -2px rgb(85, 84, 84);
+      }
+      .rp {
+        margin-right: 50px;
+        > .text {
+          display: flex;
+          justify-content: center;
+          > input {
+            /* font-weight: 700; */
+            background-color: #353535;
+            color: white;
+            font-size: medium;
+            box-sizing: border-box;
+            padding: 7px;
+            border-radius: 8px;
+            width: 450px;
+            box-shadow: 6px 6px 5px -2px rgb(85, 84, 84);
+          }
+        }
+      }
+      .whole {
+        > .rp {
+          > .middle {
+            width: 600px;
+            display: flex;
+            justify-content: space-between;
+            > .a,
+            .b,
+            .c {
+              width: 150px;
+              height: 100px;
+              background-color: #353535;
+              border-radius: 10px;
+              box-shadow: 8px 8px 5px -2px rgb(85, 84, 84);
+            }
+          }
+          > .bottom {
+            width: 100%;
+            height: 110px;
+            background-color: #353535;
+            border-radius: 10px;
+            box-shadow: 8px 8px 5px -2px rgb(85, 84, 84);
+          }
+        }
+      }
+      .mg-top {
+        margin-top: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- HEADING -->
+    <div class="heading"><h3>GITHUB</h3></div>
+    <!-- GITHUB_ICON -->
+    <div class="icon">
+      <img src="IMAGES/oie_oie_trim_image.png" />
+    </div>
+    <div class="whole">
+      <!-- LEFT_PAGE -->
+      <div class="lp mg-top"></div>
+      <!-- RIGHT_PAGE -->
+      <div class="rp mg-top">
+        <!-- INPUT -->
+        <div class="text">
+          <input class="poppins-medium-italic" type="text" placeholder="Search" />
+        </div>
+        <!-- MIDDLE -->
+        <div class="middle mg-top">
+          <div class="a mg-right"></div>
+          <div class="b mg-right"></div>
+          <div class="c"></div>
+        </div>
+        <!-- BOTTOM -->
+        <div class="bottom mg-top"></div>
+      </div>
+    </div>
+  </body>
+</html>
